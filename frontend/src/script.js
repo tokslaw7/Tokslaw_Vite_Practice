@@ -15,3 +15,6 @@ const userData = {
 
 const stringifiedUserData= JSON.stringify(userData);
 console.log(`Stringified JSON: ${stringifiedUserData}`);
+
+const parsedUserData = JSON.parse(stringifiedUserData);
+console.log ((parsedUserData));
